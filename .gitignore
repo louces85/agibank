@@ -1,0 +1,32 @@
+# Diretório de saída do Maven
+target/
+
+# Arquivos de compilação
+*.class
+
+# Configurações da IDE (IntelliJ IDEA, Eclipse, NetBeans, VS Code)
+.idea/
+*.iml
+*.ipr
+*.iws
+.project
+.classpath
+.settings/
+.vscode/
+
+# Logs e arquivos temporários
+*.log
+hs_err_pid*
+
+# Dependências baixadas pelo Maven (opcional, geralmente não deve ser ignorado)
+.mvn/
+!/.mvn/wrapper/maven-wrapper.jar
+
+# Arquivos de configuração locais
+**/application.properties
+**/application.yml
+**/application-local.properties
+
+# Arquivos específicos do sistema operacional
+.DS_Store
+Thumbs.db
